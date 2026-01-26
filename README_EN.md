@@ -16,7 +16,8 @@ A simple web service built with FastAPI. Users can upload images, and the servic
 ├── qrcodes/ # Generated QR codes
 ├── code.py # FastAPI main application
 ├── generate_qr.py # Script to generate QR codes for latest uploads
-└── README.md
+├── README.md(CN)
+└── README_EN.md
 
 ## Usage
 1. Clone the repository:
