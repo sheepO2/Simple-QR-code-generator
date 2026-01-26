@@ -5,7 +5,7 @@ from datetime import datetime
 
 # ---------------------- 配置 ----------------------
 # GitHub Pages 基础 URL
-GITHUB_PAGES_BASE = "https://sheep8787.github.io/Simple-QR-code-generator"
+GITHUB_PAGES_BASE = "https://sheepO2.github.io/Simple-QR-code-generator"
 
 # 本地目录
 UPLOAD_DIR = "uploads"
