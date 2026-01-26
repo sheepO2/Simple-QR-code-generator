@@ -36,10 +36,10 @@ def generate_qr(image_name):
 # 示例：上传一张本地图片
 if __name__ == "__main__":
     # 读取本地测试图片
-    with open("image_recognition.png", "rb") as f:
+    with open("image_recognition.jpg", "rb") as f:
         file_bytes = f.read()
 
-    image_name, _ = save_image(file_bytes, "image_recognition.png")
+    image_name, _ = save_image(file_bytes, "image_recognition.jpg")
     image_url, qr_url = generate_qr(image_name)
 
     print("GitHub Pages Image URL:", image_url)
