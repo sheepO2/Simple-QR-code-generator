@@ -15,7 +15,7 @@
 .
 ├── uploads/ # 上传的图片
 ├── qrcodes/ # 生成的二维码
-├── code.py # FastAPI 主程序
+├── localtest.py # FastAPI 主程序
 ├── generate_qr.py # 批量生成二维码脚本
 └── README.md
 
@@ -28,7 +28,7 @@ git clone https://github.com/sheepO2/Simple-QR-code-generator.git
 pip install fastapi uvicorn qrcode pillow
 
 3. 运行服务：
-python code.py
+python localtest.py
 
 4. 上传图片生成二维码：
 ·访问本地接口 http://127.0.0.1:8000/docs (请留意自己的Python路径)
