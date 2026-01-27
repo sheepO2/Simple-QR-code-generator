@@ -14,8 +14,8 @@ A simple web service built with FastAPI. Users can upload images, and the servic
 .
 ├── uploads/ # Uploaded images
 ├── qrcodes/ # Generated QR codes
-├── code.py # FastAPI main application
-├── generate_qr.py # Script to generate QR codes for latest uploads
+├── localtest.py # FastAPI local testing script
+├── generate_qr.py # QR code generation script for public access
 ├── README.md(CN)
 └── README_EN.md
 
@@ -28,10 +28,10 @@ git clone https://github.com/O2/Simple-QR-code-generator.git
 pip install fastapi uvicorn qrcode pillow
 
 3. Run the service:
-python code.py
+python localtest.py
 
 4. Generate QR codes for images:
-·Upload images via the local endpoint: http://127.0.0.1:8000/upload
+·Upload images via the local endpoint: http://127.0.0.1:8000/docs (Make sure your Python path is correct.)
 ·Or run generate_qr.py to generate a QR code for the latest uploaded image
 
 5. Access via GitHub Pages:
