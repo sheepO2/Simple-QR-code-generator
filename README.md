@@ -31,7 +31,7 @@ pip install fastapi uvicorn qrcode pillow
 python code.py
 
 4. 上传图片生成二维码：
-·访问本地接口 http://127.0.0.1:8000/upload 上传图片
+·访问本地接口 http://127.0.0.1:8000/docs 上传图片
 ·或者直接运行 generate_qr.py 生成最新上传图片的二维码
 
 5. GitHub Pages 访问：
