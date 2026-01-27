@@ -15,7 +15,7 @@
 .
 ├── uploads/ # 上传的图片
 ├── qrcodes/ # 生成的二维码
-├── code.py # FastAPI 主程序
+├── localtest.py # FastAPI 本地测试脚本
 ├── generate_qr.py # 批量生成二维码脚本
 └── README.md
 
