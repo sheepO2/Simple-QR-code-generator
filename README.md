@@ -21,8 +21,8 @@
 └── README.md
 ~~~
 ## 使用说明
-1. 克隆仓库到本地：
 ```
+1. 克隆仓库到本地：
 bash
 git clone https://github.com/sheepO2/Simple-QR-code-generator.git
 
