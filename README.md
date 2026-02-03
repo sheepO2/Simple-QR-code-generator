@@ -12,16 +12,18 @@
 
 ## 文件结构
 
+~~~
 .
 ├── uploads/ # 上传的图片
 ├── qrcodes/ # 生成的二维码
 ├── localtest.py # FastAPI 主程序
 ├── generate_qr.py # 批量生成二维码脚本
 └── README.md
-
+~~~
 ## 使用说明
 1. 克隆仓库到本地：
-```bash
+```
+bash
 git clone https://github.com/sheepO2/Simple-QR-code-generator.git
 
 2. 安装依赖：
@@ -37,6 +39,7 @@ python localtest.py
 5. GitHub Pages 访问：
 ·图片 URL 示例：https://your_username.github.io/Simple-QR-code-generator/uploads/your_image.jpg
 ·二维码 URL 示例：https://your_username.github.io/Simple-QR-code-generator/qrcodes/your_qr.png
+```
 
 注意事项：
 ·请确保二维码内容指向 GitHub Pages 的公网 URL，而非本地 IP
