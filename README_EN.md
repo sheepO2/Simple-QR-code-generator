@@ -10,7 +10,7 @@ A simple web service built with FastAPI. Users can upload images, and the servic
 - Supports PNG, JPG, JPEG, and GIF formats
 
 ## Project Structure
-
+```
 .
 ├── uploads/ # Uploaded images
 ├── qrcodes/ # Generated QR codes
@@ -18,10 +18,12 @@ A simple web service built with FastAPI. Users can upload images, and the servic
 ├── generate_qr.py # QR code generation script for public access
 ├── README.md(CN)
 └── README_EN.md
+```
 
 ## Usage
+```
 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/O2/Simple-QR-code-generator.git
 
 2. Install dependencies:
@@ -37,7 +39,7 @@ python localtest.py
 5. Access via GitHub Pages:
 ·Example image URL: https://your_username.github.io/Simple-QR-code-generator/uploads/your_image.jpg
 ·Example QR code URL: https://your_username.github.io/Simple-QR-code-generator/qrcodes/your_qr.png
-
+```
 Notes:
 ·Make sure QR codes point to the public GitHub Pages URL, not local IP addresses
 ·Both WeChat and QQ can scan the QR codes, though some QQ versions may have issues opening direct image URLs; wrapping images in an HTML page is recommended
